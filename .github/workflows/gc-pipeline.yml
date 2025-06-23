@@ -2,7 +2,7 @@ name: gc-pipeline
 on:
   push:
     branches-ignore:
-      - master
+      - main
 jobs:
   Build:
     runs-on: windows-latest
