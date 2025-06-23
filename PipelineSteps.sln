@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5B9869D-E0FC-4307-9D67-D87FB23E9991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A539C2FD-8530-40FF-8361-13CDB6C17123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineSteps", "src\PipelineSteps\PipelineSteps.csproj", "{B56BB651-C98A-4DEC-91D0-DA03B21CA23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineSteps.Tests", "tests\PipelineSteps.Tests\PipelineSteps.Tests.csproj", "{9D56316E-7F25-4E5A-B796-98CE65872DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineSteps.TestHelper", "src\PipelineSteps.TestHelper\PipelineSteps.TestHelper.csproj", "{B167096B-AD3B-43D8-80F6-75F3E737D38C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineSteps.Integration", "tests\PipelineSteps.Integration\PipelineSteps.Integration.csproj", "{F8358F40-09C1-4C61-9579-212C382ED7CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{79B53203-256E-4E3B-9115-93BD05DE8B0C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\gc-pipeline.yml = .github\workflows\gc-pipeline.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B56BB651-C98A-4DEC-91D0-DA03B21CA23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56BB651-C98A-4DEC-91D0-DA03B21CA23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56BB651-C98A-4DEC-91D0-DA03B21CA23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56BB651-C98A-4DEC-91D0-DA03B21CA23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D56316E-7F25-4E5A-B796-98CE65872DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D56316E-7F25-4E5A-B796-98CE65872DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D56316E-7F25-4E5A-B796-98CE65872DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D56316E-7F25-4E5A-B796-98CE65872DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B167096B-AD3B-43D8-80F6-75F3E737D38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B167096B-AD3B-43D8-80F6-75F3E737D38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B167096B-AD3B-43D8-80F6-75F3E737D38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B167096B-AD3B-43D8-80F6-75F3E737D38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8358F40-09C1-4C61-9579-212C382ED7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8358F40-09C1-4C61-9579-212C382ED7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8358F40-09C1-4C61-9579-212C382ED7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8358F40-09C1-4C61-9579-212C382ED7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B56BB651-C98A-4DEC-91D0-DA03B21CA23C} = {C5B9869D-E0FC-4307-9D67-D87FB23E9991}
+		{9D56316E-7F25-4E5A-B796-98CE65872DBB} = {A539C2FD-8530-40FF-8361-13CDB6C17123}
+		{B167096B-AD3B-43D8-80F6-75F3E737D38C} = {C5B9869D-E0FC-4307-9D67-D87FB23E9991}
+		{F8358F40-09C1-4C61-9579-212C382ED7CF} = {A539C2FD-8530-40FF-8361-13CDB6C17123}
+	EndGlobalSection
+EndGlobal
